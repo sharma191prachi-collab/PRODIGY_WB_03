@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    
+    <style>
+        body{
+            font-family: Arial;
+            margin:0;
+            text-align:center;
+        }
+
+        header{
+            background: blue;
+            color:white;
+            padding:40px;
+        }
+
+        section{
+            padding:30px;
+        }
+
+        .button{
+            padding:10px 20px;
+            background:black;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+        .button:hover{
+            background:green;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>Prachi Sharma</h1>
+        <p>Web Developer | Student</p>
+        <button class="button" onclick="showMessage()">Hire Me</button>
+    </header>
+
+    
+    <section>
+        <h2>About Me</h2>
+        <p>I am a beginner web developer skilled in HTML, CSS and JavaScript.</p>
+    </section>
+
+   
+    <section>
+        <h2>My Projects</h2>
+        <p>• Landing Page</p>
+        <p>• Tic Tac Toe Game</p>
+        <p>• Portfolio Website</p>
+    </section>
+
+   
+    <script>
+        function showMessage(){
+            alert("Thank you for visiting my portfolio!");
+        }
+    </script>
+
+</body>
+</html>
